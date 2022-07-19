@@ -1,0 +1,17 @@
+query DashboardQuery {
+    movies {
+        id
+        title
+        overview
+        posterPath
+        director{
+            name
+        }
+        cast {
+            name
+        }
+        genres
+        popularity
+    }
+    genres
+}
